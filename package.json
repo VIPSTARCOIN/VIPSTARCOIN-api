@@ -1,0 +1,52 @@
+{
+  "name": "VIPSTARCOIN-api",
+  "description": "A VIPSTARCOIN blockchain REST and web socket API service for VIPSTARCOINCORE Node.",
+  "version": "0.0.12",
+  "repository": "https://github.com/VIPSTARCOIN/VIPSTARCOIN-api.git",
+  "contributors": [],
+  "bugs": {
+    "url": "https://github.com/VIPSTARCOIN/VIPSTARCOIN-api/issues"
+  },
+  "homepage": "https://github.com/VIPSTARCOIN/VIPSTARCOIN-api",
+  "license": "MIT",
+  "keywords": [
+    "insight",
+    "insight api",
+    "blockchain",
+    "VIPSTARCOIN api",
+    "blockchain api",
+    "json",
+    "VIPSTARCOINcore"
+  ],
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test mocha -R spec --recursive"
+  },
+  "main": "lib",
+  "VIPSTARCOINcoreNode": "lib",
+  "dependencies": {
+    "async": "*",
+    "bignumber.js": "^4.0.2",
+    "bitcore-lib": "^0.13.7",
+    "bitcore-message": "^1.0.1",
+    "body-parser": "^1.13.3",
+    "compression": "^1.6.1",
+    "lodash": "^2.4.1",
+    "lru-cache": "^4.0.1",
+    "moment": "^2.19.3",
+    "mongoose": "^4.11.8",
+    "morgan": "^1.7.0",
+    "VIPSTARCOIN-lib": "git://github.com/VIPSTARCOIN/VIPSTARCOIN-lib.git#master",
+    "request": "^2.83.0",
+    "web3": "^0.18.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "proxyquire": "^1.7.2",
+    "should": "^8.3.1",
+    "sinon": "^1.10.3"
+  }
+}
